@@ -10,7 +10,7 @@ use Illuminate\Support\Facades\Hash;
 class LoginController extends Controller
 {
 
-
+    protected $redirectTo = '/';
     public function login(Request $request)
     {
         
